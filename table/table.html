@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Student Page</title>
+    <link rel="icon" type="image/x-icon" href="../image/favicon.ico" />
     <style>
       th,
       td {
@@ -12,11 +14,25 @@
         background-color: #96d4d4;
         border-color: blue;
       }
+      body {
+        background-image: url("../image/forest.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+      }
+      p {
+        color: red;
+        font-family: "Courier New", Courier, monospace;
+        font-size: large;
+      }
     </style>
   </head>
   <body>
-    <h2>TABLE</h2>
+    <h2 style="color: antiquewhite">TABLE</h2>
     <table style="width: 30%">
+      <caption>
+        <b style="color: aqua"> Student</b>
+      </caption>
       <tr>
         <th style="width: 70%">Person 1</th>
         <th colspan="2">Person 2</th>
@@ -33,5 +49,6 @@
         <td>21</td>
       </tr>
     </table>
+    <p style="text-align: center">Quat is 21 years old</p>
   </body>
 </html>
